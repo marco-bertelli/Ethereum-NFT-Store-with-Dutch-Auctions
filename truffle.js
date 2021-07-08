@@ -6,7 +6,7 @@ module.exports = {
       host: "127.0.0.1",
       port: 7545,
       network_id: "5777", // match any network id
-      from: "0xED36deb2ffeb19c415221fA1dbB4108C0dd962e4", // account address from which to deploy
+      from: "0xB2b87F54d65b6fc4687704f771f3A21f4fF2F66F", // account address from which to deploy
       gas: 6721975,
     }
   },

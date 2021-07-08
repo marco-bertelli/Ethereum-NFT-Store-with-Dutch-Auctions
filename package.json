@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "@0xcert/ethereum-utils": "github:0xcert/ethereum-utils",
-    "openzeppelin-solidity": "^3.4.0"
+    "openzeppelin-solidity": "^3.4.0",
+    "web3": "^1.4.0"
   }
 }

@@ -1,0 +1,23 @@
+image: node:10
+clone:
+  depth: full
+pipelines:
+  branches:
+    master:
+      - step:
+          name: Deploy to prod
+          deployment: production
+          caches:
+            - node
+          script:
+            - npm install
+            - git push https://heroku:$HEROKU_API_KEY@git.heroku.com/odin-server-starter-kit-prod.git HEAD:master
+    develop:
+      - step:
+          name: Deploy to develop
+          deployment: test
+          caches:
+            - node
+          script:
+            - npm install
+            - git push https://heroku:$HEROKU_API_KEY@git.heroku.com/odin-server-starter-kit-dev.git HEAD:master

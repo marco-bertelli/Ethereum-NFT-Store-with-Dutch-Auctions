@@ -1,0 +1,5 @@
+{
+  "extends": ["@becodebg/eslint-config"],
+  "parser": "@babel/eslint-parser",
+  "globals": { "_": true, "Promise": true, "logger": true }
+}

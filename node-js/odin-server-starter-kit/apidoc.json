@@ -1,0 +1,3 @@
+{
+  "order": ["Schema", "Create", "RetrieveAll", "Retrieve", "RetrieveCurrent", "Update", "UpdatePassword", "Delete"]
+}
